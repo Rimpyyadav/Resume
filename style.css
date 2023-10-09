@@ -1,0 +1,94 @@
+
+  #cv-template{
+    display: none;
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+#nameT1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#contactT {
+  font-size: 16px;
+  margin: 0;
+}
+
+#addressT {
+  font-size: 14px;
+  margin: 0;
+  color: #555;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Links styles */
+a {
+  color: #0077b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Name and title styles */
+#nameT2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Card styles */
+.card {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #0077b5;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Button styles */
+.btn {
+  background-color: #0077b5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005682;
+}

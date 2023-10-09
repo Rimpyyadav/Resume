@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Resume</title>
+</head>
+<body>
+    
+    <div class="container" id="cv-form">
+        <h1 class="text-center">Resume Generator</h1>
+        <h3>Personal Info</h3>
+        <div class="form-group">
+            <label for="nameField">Your Name</label>
+            <input
+            type="text"
+            id="nameField"
+            placeholder="Enter here "
+            class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label for="contactField">Your Contact</label>
+            <input
+            type="text"
+            id="contactField"
+            placeholder="Enter here "
+            class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label for="addressField">Your Address</label>
+            <textarea
+            id="addressField" 
+            placeholder="Enter here "
+            class="form-control"></textarea>
+        </div>
+        <p class="text-secondary">Important links</p>
+        <div class="form-group">
+            <label for="ldField">Linkedin</label>
+            <input
+            type="text"
+            id="ldField"
+            placeholder="Enter here "
+            class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label for="twtField">Twitter</label>
+            <input
+            type="text"
+            id="twtField"
+            placeholder="Enter here "
+            class="form-control"/>
+        </div>
+        <div class="form-group">
+            <label for="gbField">Github</label>
+            <input
+            type="text"
+            id="gbField"
+            placeholder="Enter here "
+            class="form-control"/>
+        </div>
+
+        <h3>Professional Information</h3>
+        <div class="form-group">
+            <label for="">Objective</label>
+            <textarea
+            id="obj"
+            placeholder="Enter here"
+            class="form-control oField"></textarea>
+        </div>
+
+        <div class="form-group" id="we">
+            <label for="">Work Experience</label>
+            <textarea
+            placeholder="Enter here "
+            class="form-control weField"></textarea>
+    
+       <div class="container" id="webtn">
+        <button class="btn" data-container="we">Add</button>
+       </div>
+    </div>
+
+
+       <div class="form-group" id="aq">
+        <label for="">Academic Qualification</label>
+        <textarea
+        placeholder="Enter here "
+        class="form-control eqField"
+        rows="3">
+    </textarea>
+   <div class="container" id="eqbtn">
+    <button class="btn" data-container="aq">Add</button>
+   </div>
+</div>
+
+   <div class="container" id="cvbtn">
+     <button onclick="generateCV()">Generate CV</button>
+   </div>
+  </div>
+  
+    
+
+  <div class="container" id="cv-template">
+    <div class="container">
+        <p id="nameT1">Rimpy yadav</p>
+        <p id="contactT">5454344364</p>
+        <p id="addressT">hdhthrgrhtrhtrh,rrr</p>
+
+        <hr />
+        <p>
+            <a id="linkdinT" href="#1">https://www.linkedin.com/in/rimpy-yadav-ab1581271/</a>
+        </p>
+
+        <p>
+            <a id="twitterT" href="#1">https://www.linkedin.com/in/rimpy-yadav-ab1581271/</a>
+        </p>
+
+        <p>
+            <a id="githubT" href="#1">https://www.linkedin.com/in/rimpy-yadav-ab1581271/</a>
+        </p>
+        <hr />
+    </div>
+    <h1 id="nameT2" class="text-center">Rimpy yadav</h1>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>Objective</h3>
+        </div>
+        <div class="card-body" id="objectiveT">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim rerum natus fuga fugit labore
+                obcaecati quibusdam delectus, earum consequuntur maxime repellendus optio dolorem cum provident
+                suscipit recusandae voluptates numquam rem.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>Work Experience</h3>
+        </div>
+        <div class="card-body" id="weT">
+            <ul>
+                <li>
+                    njjnjnjnjnjnjnnjnnnnnnnj
+                </li>
+
+                <li>
+                    njjnjnjnjnjnjnnjnnnnnnnj
+                </li>
+
+                <li>
+                    njjnjnjnjnjnjnnjnnnnnnnj
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3>Academic Qualification</h3>
+        </div>
+        <div class="card-body" id="aqT">
+            <ul>
+                <li>
+                    njjnjnjnjnjnjnnjnnnnnnnj
+                </li>
+
+                <li>
+                    njjnjnjnjnjnjnnjnnnnnnnj
+                </li>
+
+                <li>
+                    njjnjnjnjnjnjnnjnnnnnnnj
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <button onclick="printCV()" class="btn backgroung"> Print cv</button>
+    </div>
+</div>
+
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html> 
